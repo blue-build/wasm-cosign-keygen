@@ -1,0 +1,101 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "go@latest": {
+      "last_modified": "2024-03-22T11:26:23Z",
+      "resolved": "github:NixOS/nixpkgs/a3ed7406349a9335cb4c2a71369b697cecd9d351#go",
+      "source": "devbox-search",
+      "version": "1.22.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/n1k6wf8q10q7k0863gb78b1rf0j07r7r-go-1.22.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/n1k6wf8q10q7k0863gb78b1rf0j07r7r-go-1.22.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/fl6cjlp5bvykfz1kxrw687zxzld25pn7-go-1.22.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/fl6cjlp5bvykfz1kxrw687zxzld25pn7-go-1.22.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/xgdp7gnf6vzr2ick2ip1lhq4cww65p7w-go-1.22.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/xgdp7gnf6vzr2ick2ip1lhq4cww65p7w-go-1.22.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/bp39dh48cdqp89hk5mpdi1lxdf0mjl7x-go-1.22.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/bp39dh48cdqp89hk5mpdi1lxdf0mjl7x-go-1.22.1"
+        }
+      }
+    },
+    "tinygo@latest": {
+      "last_modified": "2024-04-02T02:53:36Z",
+      "resolved": "github:NixOS/nixpkgs/080a4a27f206d07724b88da096e27ef63401a504#tinygo",
+      "source": "devbox-search",
+      "version": "0.31.2",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/5pw1rz0n30n43xhnclhc5k7hqqg8zvzb-tinygo-0.31.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/5pw1rz0n30n43xhnclhc5k7hqqg8zvzb-tinygo-0.31.2"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/wqga94ad8lqaf87vwdj9a3g3k6xf42a0-tinygo-0.31.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/wqga94ad8lqaf87vwdj9a3g3k6xf42a0-tinygo-0.31.2"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/qg11x8jm4xgvnyhpfc5hyc6hbdvw53r5-tinygo-0.31.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/qg11x8jm4xgvnyhpfc5hyc6hbdvw53r5-tinygo-0.31.2"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/0irvz984k7gqqbqkdkkmbifbbr5q6smp-tinygo-0.31.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/0irvz984k7gqqbqkdkkmbifbbr5q6smp-tinygo-0.31.2"
+        }
+      }
+    }
+  }
+}
